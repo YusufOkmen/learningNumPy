@@ -29,7 +29,11 @@ arr6 = np.array([1, 0 ,3])
 
 arr7 = arr6.astype("bool")
 
-print(arr6)
-print(arr6.dtype)
-print(arr7)
-print(arr7.dtype)
+# print(arr6)
+# print(arr6.dtype)
+# print(arr7)
+# print(arr7.dtype)
+
+arr8 = np.array(["a", 2, 3, True], dtype="object")
+
+print(arr8.dtype)
