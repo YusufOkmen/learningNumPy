@@ -1,0 +1,23 @@
+When we want to access a data from different perspectives we use dimensions. For examle: 
+
+1 Dimension = Let's think that we have multiple scores of ONE student
+
+studentArr = np.array([40, 59, 30]) # first test=40, seconde test=59, third test=30
+
+now let's take this example to 2 Dimension
+
+studentArr = np.array([[40, 59, 30], [40, 23, 80]]) # Now we have three test scores of TWO different students
+
+finally 3 Dimension
+
+studentArr = np.array([
+    [[30, 40, 50], [50, 50, 40]], # test scores of two students in class 1
+    [[50, 32, 45], [30, 40, 20]] # test scores of two student in class 2
+    ])
+
+
+For this example
+Axis 0 = Classes
+Axis 1 = Students
+Axis 2 = Tests
+
